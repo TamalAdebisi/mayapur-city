@@ -1,0 +1,31 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon src/app.js --exec  \"npm run lint && node\"",
+    "lint": "eslint src/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TamalAdebisi/mayapur-city.git"
+  },
+  "author": "Tamal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TamalAdebisi/mayapur-city/issues"
+  },
+  "homepage": "https://github.com/TamalAdebisi/mayapur-city#readme",
+  "dependencies": {
+    "eslint": "^4.19.1",
+    "nodemon": "^1.17.5"
+  },
+  "devDependencies": {
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0"
+  }
+}
